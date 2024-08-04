@@ -1,7 +1,10 @@
 import random
 import hang_name
 import art
-from replit import clear
+import os
+
+
+clear = lambda: os.system('clear')
 
 print("Welcome to ")
 print(art.logo)
